@@ -1,0 +1,183 @@
+body{
+    text-align: center;
+}
+
+
+.hr1{
+    padding: 10px;
+    border: none;
+    height: 10px;
+    background-color: #FF9900;
+  }
+
+
+.clasimglog{
+    text-align: center;
+    background-color: #000066;
+}
+
+.titulo1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #0868b8;
+}
+
+.hr2 {
+    border: none;
+    height: 4px;
+    background-color: #800000;
+    width: 50px;
+  }
+
+  .divform {
+    text-align: center;
+
+
+
+  }
+  
+  h2{
+    color: #FF9900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  p{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+  }
+
+  form {
+    max-width: 950px; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border: 2px solid #0056c7;
+    border-radius: 10px; 
+  }
+  
+  
+  .div1, .div2, .div3, .div5{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+
+
+.div4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.divlabel {
+  width: 48%;
+  display: flex;
+  align-items: center;
+}
+
+.img1{
+    width: 25px;
+}
+
+.label1{
+    display: block;
+    justify-content: space-between;
+    text-align: right;
+    color: #0868b8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.inputL {
+    width: 48%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  input, select {
+    width: 48%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+   
+  #Ciudad{
+  display: block;
+  text-align: left;
+  }
+
+
+  .div4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .divlabel {
+    width: 48%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .label1 {
+    margin-right: 10px;
+  }
+
+  span{
+    color: #83bdec;
+  }
+
+
+  .inputL {
+    width: 48%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  button {
+    width: auto; 
+    padding: 12px 219px; 
+    background-color: #c01717; 
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: block; 
+    margin-left: auto; 
+    margin-top: 60px;
+  }
+  button:hover {
+    background-color: #c0392b; 
+  }
+
+  .pie {
+    text-align: center;
+    background-color: #000066;
+    padding: 10px 0; 
+  }
+  
+  .txtpie {
+    font-size: 30px;
+    color: white;
+    margin: 0; 
+    line-height: 1.2; 
+  }

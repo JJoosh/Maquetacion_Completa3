@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Tarea 4</title>
+</head>
+<body>
+    <div class="hr1"></div>
+    <div class="clasimglog">
+        <img src="../img/logo_cabecera.png" alt="">
+    </div>
+
+    <h1 class="titulo1">DÉJANOS CONOCERTE</h1>
+    <hr class="hr2">
+    <br>
+    <div class="divform">
+        <form action="post" name="Formulario">
+            <h2 class="titulo2"> ¡ Compártenos tu información !</h2>
+            <p>Déjanos tus datos personales y nosotros nos comunicaremos contigo lo más pronto posible</p>
+            <div class="div1">
+                <input type="text" placeholder="Nombre completo*" id="Nombre" name="Nombre">
+                <input type="text" name="Estado" id="Estado" placeholder="Estado">
+            </div>
+            <div class="div2">
+                <input type="text" placeholder="Correo electronico*" id="Correo" name="Correo electronico">
+                <input type="text" name="Colonia" id="Colonia" placeholder="Colonia">
+            </div>
+            <div class="div3">
+                <input type="text" name="Celular" id="Celular" placeholder="Celular*">
+                <select name="areadeinteres" id="areadeinteres"> 
+                    <option value="0">Elige un area de interes</option> 
+                    <option value="cajas">Cajas</option> 
+                    <option value="servicios">Servicios</option> 
+                    <option value="asesoramiento-financiero">Asesoramiento Financiero</option> 
+                    <option value="gestoria-y-cobranza">Gestoría y Cobranza</option> <option value="credito">Crédito</option> 
+                    <option value="juridico">Jurídico</option> 
+                    <option value="archivo">Archivo</option> 
+                    <option value="mercadotecnia">Mercadotecnia</option> <option value="diligencias">Diligencias</option> 
+                    <option value="compras">Compras</option> 
+                    option value="intendencia">Intendencia</option> 
+                    <option value="auditoria">Auditoría</option> 
+                    <option value="capital-humano">Capital Humano</option> <option value="mantenimiento">Mantenimiento</option> <option value="sistemas">Sistemas</option> 
+                    <option value="contabilidad">Contabilidad</option> <option value="administracion">Administración</option> 
+                </select>
+            </div>
+            <div class="div4">
+                <input type="text" placeholder="Ciudad" name="Ciudad" id="Ciudad">
+                <div class="divlabel"> 
+                    <label class="label1" for="curriculum">Sube tu curriculum en un formato PDF pdf <span> (no execer de 5MB) </span> </label>
+                    <img class="img1" src="../img/icono_pdf.png" alt="#">
+                </div>
+            </div>
+            <div class="div5">
+                <input class="inputL" type="text" name="Localidad" id="Localidad" placeholder="Localidad">
+                <input type="file" placeholder="Localidad" name="file" id="file" accept="application/pdf" max-size="1000">
+            </div>
+            <button type="button" onclick="validar_submit()"> Enviar</button>
+        </form>
+        <script src="../js/script.js"></script>
+    </div>
+
+    <div class="pie">
+        <p class="txtpie">Joshua Jesus Aviles Interian</p>
+        <p class="txtpie">7SB</p>
+        <p class="txtpie">Programacion Web</p>
+    </div>
+</body>
+</html>
